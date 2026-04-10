@@ -1,0 +1,107 @@
+html {
+    margin: 0 auto;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.8em;
+}
+
+.logo {
+    width: 150px;
+}
+
+.container {
+    text-align: center;
+}
+
+.slogan-container {
+    border-top: 2px solid #fef1d2;
+    background-color: #fdfbf1;
+    padding: 3px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.slogan {
+    color: #427976;
+    font-size: 0.8em;
+}
+
+.slogan-bold {
+    font-weight: bold;
+}
+
+.content {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.main-img {
+    margin: 0;
+    padding: 0;
+}
+
+.main-img img {
+    width: 100%;
+    height: 400;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    color: #b9b9b9ba;
+}
+
+#featured {
+    border-left: 2px solid #fef1d2;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+#featured-title {
+    color: #B5460F;
+    font-weight: bold;
+}
+
+#featured-link {
+    color: #107777
+}
+
+#ingredients {
+    margin-top: 40px;
+    border-bottom: 2px solid #C4F3F2;
+}
+
+#prepare p {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+li {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#metod {
+    border-bottom: 2px solid #C4F3F2;
+    margin-top: 40px;
+}
+
+#creare ol li {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#description p {
+    margin-left: 40px;
+}
+
+#end a {
+    color: #107777;
+}
