@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EAEDED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-header{
+    background-color: #222F3E;
+    height: 12vh;
+}
+
+.top-header img{
+    height: 2.5rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar{
+    background-color: #354758;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 25px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.promo-bar{
+    text-align: center;
+    padding: 8px;
+    background-color: #F56600;
+    color: white;
+}
+
+main{
+    padding: 30px;
+}
+
+.banner{
+    position: relative;
+    height: 100%;
+    padding: 30px 0;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text-title{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.product-grid{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item img{
+    width: 100%;
+    height: 100%;
+    min-height: 330px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.product-item{
+    width: 25%;
+}
+
+.product-container{
+    background-color: white;
+    padding: 10px;
+}
+
+.container-title p{
+    font-weight: bold;
+}
+.container-span{
+    color: #017185;
+    font-size: .6rem;
+}
+
+.product-container-long{
+    padding-bottom: 25px;
+}
+
+.product-container-long img{
+    width: 100%;
+}
+
+.product-container-long p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.product-container-long p span{
+    color: #017185;
+    font-size: 0.6rem;
+}
+
+footer{
+    background-color: #222F3E;
+}
+
+.banner-bottom{
+    background-color: #354758;
+    text-align: center;
+    height: 2rem;
+    padding-top: 5px;
+}
+.banner-bottom a{
+    color: white;
+}
+
+.logo-bottom{
+    text-align: center;
+      padding: 25px 0 35px 0;
+}
+
+.logo-bottom img{
+    height: 3rem; 
+}
