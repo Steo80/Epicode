@@ -39,6 +39,9 @@ body{
     background-color: #F56600;
     color: white;
 }
+.sd-line{
+    font-size: .6rem;
+}
 
 main{
     padding: 30px;
@@ -46,7 +49,7 @@ main{
 
 .banner{
     position: relative;
-    height: 100%;
+    height: 110%;
     padding: 30px 0;
 }
 
@@ -119,6 +122,44 @@ main{
     font-size: 0.6rem;
 }
 
+.extra-section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+h2{
+    font-size: .7rem;
+}
+
+.extra{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px; 
+}
+
+.extra1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: .5rem;
+}
+
+.img-extra{
+    width: 100%;
+    object-fit: cover;
+}
+
+.last-link{
+    text-decoration: none;
+    color: #1B788B;
+    font-size: .6rem;
+    font-weight: bold;
+}
+
 footer{
     background-color: #222F3E;
 }
@@ -131,13 +172,16 @@ footer{
 }
 .banner-bottom a{
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .6rem;
 }
 
 .logo-bottom{
     text-align: center;
-      padding: 25px 0 35px 0;
+    padding: 25px 0 35px 0;
 }
 
 .logo-bottom img{
-    height: 3rem; 
+    height: 2.5rem; 
 }
