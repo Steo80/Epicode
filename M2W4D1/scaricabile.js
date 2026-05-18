@@ -202,12 +202,12 @@ form.addEventListener('submit', (e) => {
   const inputValue = getInputValues()
   const searchResult = searchJob(inputValue.title, inputValue.location)
 
-  const rows = document.querySelectorAll('.newRow'); // produce array di elementi
+  const rows = document.querySelectorAll('.newRow'); 
 
   for (const row of rows) {
     row.remove()
   }
-
+ 
   if (searchResult.count > 0) {
     for (const item of searchResult.result) {
       addResultTableRow(item.title, item.location)
