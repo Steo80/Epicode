@@ -1,0 +1,66 @@
+/*domanda 1*/
+.jumbotron div h1{
+    color: goldenrod;
+}
+
+/*domanda 2*/
+.nav > span{
+    border: 1px solid purple;
+} 
+
+/* domanda 3*/
+.jumbotron div:last-child a{
+    text-decoration: underline;
+}
+
+/*domanda 4*/
+.blog-post:first-of-type{
+    border: 1px solid blue;
+}
+
+/*domanda */
+.blog-post:first-of-type hr{
+    border:1px, solid, red;
+}
+
+/*domanda 6*/
+.nav span:nth-child(even){
+color: blue;
+}
+
+/*domanda 7*/
+aside .p-4:nth-child(2) ol li{
+    background-color: red;  
+}
+
+/*domanda 8*/
+.blog-post:nth-child(2) p:first-of-type a{
+    background-color: darkgrey;
+}
+
+/*domanda 9*/
+.blog-post:last-of-type li:nth-child(2){
+    color: darkcyan;
+}
+
+/*domanda 10*/
+.float-right{
+    background-color: yellowgreen;
+}
+
+/*domanda 11*/
+.blog-pagination a:last-child{
+    background-color: blueviolet;
+}
+
+/*domanda 12*/
+footer a:nth-child(2){
+    background-color: brown;
+}
+
+/*facoltativo 1*/
+
+
+/**/
+
+/**/
