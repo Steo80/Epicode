@@ -94,3 +94,20 @@ body {
     }
 
 }
+
+@keyframes apparizione {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.netflix-row {
+  animation: apparizione ease-out both;
+  animation-timeline: view();
+  animation-range: contain 0% contain 50%;
+}
