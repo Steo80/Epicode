@@ -1,0 +1,96 @@
+body {
+    background-color: #141414;
+    
+}
+
+.netflix-navbar{
+
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo img{
+    width: clamp(80px, 10vw, 120px);
+}
+
+#logo{
+    width: auto;
+   
+}
+
+
+.icona-nav{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icona-nav:hover{
+    transform: scale(1.2);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus-visible {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.carousel,.carousel-inner,.carousel-item {
+    overflow: visible;
+}
+
+.carousel img{
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.carousel img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255,255,255,.3);
+}
+
+.footer-container {
+  max-width: 980px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.footer-container a, .footer-container p{
+  font-size: small;
+}
+
+.icon-social a {
+  font-size: large;
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar-collapse {
+        background-color: #141414;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .netflix-title .container-fluid{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .footer-container{
+        padding-top: 50px;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+}

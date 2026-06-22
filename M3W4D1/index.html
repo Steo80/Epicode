@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark netflix-navbar">
+            <div class="container-fluid ">
+                <div id="logo">
+                    <img src="./assets/imgs/Netflix_Logo_RGB.png" alt="">
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center ms-4">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TV Show</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recently Added</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My List</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex gap-3 justify-content-center align-items-center">
+
+                        <i class="bi bi-search text-light icona-nav"></i>
+
+                        <a class="nav-link  text-light icona-nav" href="#">Kids</a>
+
+                        <i class="bi bi-bell-fill text-light icona-nav"></i>
+
+                        <div id="navbar-list-4">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg"
+                                            width="35" height="35">
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-end"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Dashboard</a>
+                                        <a class="dropdown-item" href="#">Edit Profile</a>
+                                        <a class="dropdown-item" href="#">Log Out</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar end -->
+    </header>
+
+    <main>
+        <section class="text-light netflix-title">
+            <div class="container-fluid d-flex justify-content-between align-items-center py-2 pb-3  ">
+
+                <div class="d-flex align-items-center gap-3 mt-1">
+                    <h2><a href="#" class="text-light text-decoration-none">TV Shows</a></h2>
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-outline-light dropdown-toggle bg-black text-light py-1 pe-3 d-inline-flex justify-content-between align-items-center rounded-0 dropdown-genres"
+                            type="button" data-bs-toggle="dropdown">
+                            Genres
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark rounded-0">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                            <li><a class="dropdown-item" href="#">Horror</a></li>
+                            <li><a class="dropdown-item" href="#">Thriller</a></li>
+                            <li><a class="dropdown-item" href="#">Romantic</a></li>
+                            <li><a class="dropdown-item" href="#">Comedy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d-flex border border-secondary rounded-0 mt-5">
+                    <a href="#" class="px-2 border-end border-secondary text-decoration-none text-light">
+                        <i class="bi bi-list"></i>
+                    </a>
+                    <a href="#" class="px-2 text-decoration-none text-light">
+                        <i class="bi bi-grid"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--primo carosello-->
+
+        <section class="slide-box">
+            <div class="container-fluid slider mb-5">
+                <div class="d-flex justify-content-between">
+                    <p class="text-light"><b>Trending Now</b></p>
+                </div>
+                <div id="firstCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <!--prima slide-->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/1.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/2.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/3.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/4.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/5.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/6.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!--prima slide end inizio seconda slide-->
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/7.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/8.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/9.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/10.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/11.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/12.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!--seconda slide end-->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--Secondo carosello-->
+
+        <section class="slide-box">
+            <div class="container-fluid slider mb-5">
+                <div class="text-light">
+                    <p><b>Watch It Again</b></p>
+                </div>
+                <div id="secondCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <!--inizio prima slide-->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/7.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/8.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/9.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/10.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/11.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/12.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!--prima slide end inizio seconda slide-->
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/13.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/14.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/15.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/16.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/17.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/18.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!--seconda slide end-->
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#secondCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#secondCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--terzo carosello-->
+
+        <section class="slide-box">
+            <div class="container-fluid slider">
+                <div class="text-light">
+                    <p><b>New Release</b></p>
+                </div>
+                <div id="thirdCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <!--inizio prima slide-->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/13.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/14.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/15.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/16.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/17.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/18.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!--prima slide end inizio seconda slide-->
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/1.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/2.png" class="img-fluid" alt="...">
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/3.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/4.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/5.png" class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <img src="./assets/imgs/movies/6.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!--seconda slide end-->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#thirdCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#thirdCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-start footer-container">
+            <div class="d-flex gap-4 mb-3 fs-5 icon-social">
+                <a href="#" class="footer-link text-decoration-none text-white-50"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-link text-decoration-none text-white-50"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="footer-link text-decoration-none text-white-50"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link text-decoration-none text-white-50"><i class="bi bi-youtube"></i></a>
+            </div>
+
+            <div class="row g-2 mb-4">
+                <div class="col-12 col-sm-6 col-md-3 d-flex flex-column gap-2">
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Audio and Subtitles</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Media Center</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Privacy</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Contact Us</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex flex-column gap-2">
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Audio Description</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Investor Relations</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Legal Notices</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex flex-column gap-2">
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Help Center</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Jobs</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Cookie Preferences</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex flex-column gap-2">
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Gift Cards</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Terms of Use</a>
+                    <a href="#" class="footer-link text-decoration-none text-white-50">Corporate Information</a>
+                </div>
+            </div>
+            <div class="pt-2">
+                <button class="btn btn-outline-secondary btn-sm rounded-0 footer-btn mb-3 text-white-50">
+                    Service Code
+                </button>
+                <p class="footer-copyright text-white-50">© 1997-2026 Netflix, Inc. i-0d00fcda2fdf9c0de</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
